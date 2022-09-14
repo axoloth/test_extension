@@ -1,0 +1,22 @@
+{
+    "name": "axoloth/test_extension",
+    "description": "Super extension pour Bolt CMS",
+    "type": "bolt-extension",
+    "require": {
+        "php": ">=8.0",
+        "twig/twig": ">=3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Axoloth\\TestExtension\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "axoloth",
+            "email": "fabien@axoloth.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
