@@ -1,8 +1,10 @@
 <?php
-namespace Axoloth\
+namespace Axoloth\TestExtension;
 
 
-class TestController
+use Bolt\Extension\ExtensionController;
+
+class TestController extends ExtensionController
 {
 
 }
